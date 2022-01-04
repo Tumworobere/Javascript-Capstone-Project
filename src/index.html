@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Entertainment</title>
+  </head>
+
+  <body>
+    <header class="header-container">
+      <nav class="navigation">
+        <a href="#container" class="Pokemon-logo"></a>
+        <ul class="nav-list">
+          <li>Home</li>
+          <li>Movie TV</li>
+          <li>Events</li>
+          <li>News</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="app-title">
+      <h1>Best Shows for entertainment</h1>
+      <span class="items-count">0</span>
+    </div>
+    <div class="container"></div>
+    
+    <!--comments Modal-->
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <div class="closeButton" id="modalCloseButton">X</div>
+        <div id="thumbnail"></div>
+        <h2 id="modalTitle">Multi-post story</h2>
+        <ul class="movie-info">
+          <li class="info1"></li>
+          <li class="info2"></li>
+          <li class="info3"></li>
+          <li class="info4"></li>
+        </ul>
+        <h3 class="comments-title">Comments</h3>
+        <ul id="comments"></ul>
+        <form id="comment-form">
+          <h3 id="comment-title">Add a Comment</h3>
+          <input id="name" maxlength="20" placeholder="Your Name" required />
+          <textarea
+            id="insights"
+            maxlength="100"
+            placeholder="Your Insights"
+            required
+          ></textarea>
+          <button class="submitButton" type="submit">Comment</button>
+        </form>
+      </div>
+    </div>
+    <!-- reservations modal -->
+
+    <div class="res-modal" id="resmodal">
+      <div class="res-modal-content">
+        <div class="res-closeButton" id="res-modalCloseButton">X</div>
+        <div id="res-thumbnail"></div>
+        <h2 id="res-modalTitle">Multi-post story</h2>
+        <ul class="res-movie-info">
+          <li class="res-info1"></li>
+          <li class="res-info2"></li>
+          <li class="res-info3"></li>
+          <li class="res-info4"></li>
+        </ul>
+        <h3 class="reservations-title">reservations</h3>
+        <ul id="reservations"></ul>
+        <form id="reservation-form">
+          <h3 id="reservation-title">Add a reservation</h3>
+          <input
+            id="res-name"
+            maxlength="20"
+            placeholder="Your Name"
+            required
+          />
+          <input type="date" id="start-date" required />
+          <input id="end-date" type="date" required />
+          <button class="res-submitButton" type="submit">Reservation</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p class="my-footer">
+        Created with &#10084;&#65039; by Ahmed Reda , Azeem Olatunji & Annah
+        Tumworobere, Under MIT CC Licence
+      </p>
+    </footer>
+  </body>
+</html>
