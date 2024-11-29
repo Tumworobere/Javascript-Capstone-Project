@@ -3,7 +3,6 @@
 ![screenshot](./src/image/Capture.PNG)SCREENSHOT OF DESKTOP VERSION 
 
 ## Built With
-
 - HTML
 - CSS
 - JAVASCRIPT
@@ -11,7 +10,6 @@
 - WEBPACK
 - JEST TESTING
 - EXTERNAL API
-- Technologies used
 
 ## Live Demo
 
@@ -67,8 +65,6 @@ STEP 2
 - GitHub: [@githubhandle](https://github.com/zemola)
 - GitHub: [@githubhandle](https://github.com/ReAliens)
 - GitHub: [@githubhandle](https://github.com/Tumworobere)
-
-
 
 
 ## 🤝 Contributing
