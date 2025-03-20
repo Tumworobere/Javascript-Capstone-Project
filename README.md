@@ -45,7 +45,7 @@ STEP 2
 ### Prerequisites
 - You should have basic knowledge of HTML
 - You should have basic knowledge of CSS
-- Also, a basic knowledge of git and github
+- Also, a basic knowledge of git and github(version control)
 - A code editor: I used VScode for this project but you can use any code editor of your choice
 
 ### Setup
